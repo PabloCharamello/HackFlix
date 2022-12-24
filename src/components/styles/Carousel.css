@@ -1,0 +1,38 @@
+.carousel-container {
+  border-bottom: 20px solid rgb(20, 20, 20);
+  box-shadow: 0 0 10px 0 rgb(46, 46, 46);
+}
+
+.carousel {
+  position: relative;
+  height: 550px;
+  box-shadow: 0 0 0px 0 rgb(46, 46, 46);
+  z-index: 0;
+}
+
+.carousel img {
+  position: absolute;
+  top: -300px;
+}
+
+.content-card-carousel {
+  position: absolute;
+  width: 100vw;
+}
+
+img {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.hackflix-title {
+  font-size: 3.5rem;
+  background-color: rgba(0, 0, 0, 0.622);
+  padding: 20px 10px;
+  width: 270px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+  box-shadow: 0 40px 0 20px rgba(255, 255, 255, 0.845), 0 80px 0 40px #b60f0f,
+    0 120px 0 60px rgb(20, 20, 20);
+}

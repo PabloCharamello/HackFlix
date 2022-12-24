@@ -1,0 +1,31 @@
+@font-face {
+  font-family: crescendo;
+  src: url(../styles/Crescendo.ttf);
+}
+
+.Sentimental-faces-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: rgb(20, 20, 20);
+  box-shadow: 0px 6px 0.5rem 2px rgba(46, 46, 46, 0.37);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 1;
+}
+
+.filter-title {
+  position: relative;
+  top: 0.2rem;
+  font-size: 1rem;
+  color: #d8732f;
+  /* color: #a95924; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top-width: 5px;
+  margin-right: 0.6rem;
+}

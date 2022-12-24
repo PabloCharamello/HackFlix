@@ -1,0 +1,70 @@
+.navbar-container {
+  background-color: rgba(46, 46, 46);
+  height: 60px;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  box-shadow: 0 1px 5px 1px rgb(24, 24, 24);
+}
+
+.navbar-container img {
+  position: absolute;
+  left: 0px;
+  padding-top: 0.6rem;
+  min-height: 50px;
+  min-width: 90px;
+  height: 115px;
+  width: 172px;
+  z-index: 1;
+}
+
+.hackFlixLogo {
+  position: relativer;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  z-index: 3;
+}
+
+.nav-items {
+  margin-right: 1.3rem;
+  font-size: 1rem;
+}
+
+.nav-ul {
+  padding: 0.9rem 0;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.Hack-link {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(127, 127, 127);
+}
+
+.Hack-link:hover {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(156, 34, 34);
+  padding: 18px 2px 0px;
+
+  transition: all 0.5s;
+}
+
+.nav-links:hover {
+  color: #d8732f;
+  background-color: rgba(56, 84, 118, 0.8);
+  padding: 18px 19px 22px;
+}

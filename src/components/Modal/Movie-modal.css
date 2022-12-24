@@ -1,0 +1,24 @@
+@font-face {
+    font-family: crescendo;
+    src: url(Crescendo.ttf);
+}
+
+.modal-style {
+    background-color: black;
+}
+
+#transition-modal-date {
+    font-family: crescendo;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#transition-modal-title {
+    font-size: 1.8rem;
+    font-family: crescendo;
+    font-weight: 600;
+}
+
+.modal-video {
+    margin-left: 15px;
+}
